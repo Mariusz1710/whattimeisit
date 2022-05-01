@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Analog clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="./index.html"><h1 id="what">What time is it?</h1></a>
+<button id="fra" class="country" onclick="france()"><img src="paris.jpg" width="100%" height="100%"></button>
+<button id="ger" class="country" onclick="germany()"><img src="berlin.jpg" width="100%" height="100%"></button>
+<button id="eng" class="country" onclick="england()"><img src="london.jpg" width="100%" height="100%"></button>
+<button id="ame" class="country" onclick="america()"><img src="ny.jpg" width="100%" height="100%"></button>
+<div style="clear:both"></div>
+
+    <canvas id="can" width="550px" height="550px" style="opacity: 0; position:absolute;"></canvas>
+
+<script src="analog_clock.js"></script>
+
+
+</body>
+</html>

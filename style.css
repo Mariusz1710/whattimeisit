@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+}
+
+h1
+{
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:link
+{
+    color: black;
+}
+
+a:visited
+{
+    color: black;
+}
+
+a:hover
+{
+    color: orange;
+}
+#can
+{
+    background-color: #333
+    border: 5px solid navy;
+}
+
+.country
+{
+    float: left;
+    border: 3px solid orange;
+    width: 25%;
+    height: 25%;
+}
+
+.country:hover
+{
+    opacity: 0.5;
+}
+
+#fra:hover::after
+{
+    content: "France";
+    font-size: 20px;
+    color: black;
+}
+
+#ger:hover::after
+{
+    content: "Germany";
+    font-size: 20px;
+    color: black;
+}
